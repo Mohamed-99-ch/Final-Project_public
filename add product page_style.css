@@ -1,0 +1,91 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+body {
+    width: 80%;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+.container {
+    width: 100%;
+    padding: 30px;
+    margin: 50px 100px;
+    height: 600px;
+}
+
+.title {
+    font-size: 25px;
+    height: 40px;
+    width: 200px;
+}
+
+.detales,.pro_detales {
+    width: 100%;
+    height: 80px;
+    color: gray;
+}
+
+.product_name {
+    width: 45%;
+    height: fit-content;
+    float: left;
+    padding: 10px;
+}
+
+.pro_name,.category,.brand,.desc,.product_img,.pro_size,.pro_date {
+    font-size: 25px;
+}
+
+.pro_name_input,.Category_name_input,.brand_input,.pro_size_input,.pro_date_input{
+    width: 70%;
+    height: 30px;
+    outline: none;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.desc_textarea {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+
+
+.product_imag {
+    width: 45%;
+    height: fit-content;
+    float: right;
+    padding: 10px;
+}
+
+.pro_img {
+    border: 1px dashed gray;
+    height: 100px;
+    width: 150px;
+}
+
+.add_button {
+    color: white;
+    background-color: blue;
+    border: none;
+    height: 40px;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.add_button:hover {
+    color: blue;
+    background-color: white;
+    transition: 0.6s;
+}
+
+
