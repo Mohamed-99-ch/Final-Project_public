@@ -10,6 +10,8 @@
 </head>
 
 <body>
+    <?php require("header.php") ?>;
+
     <div class="free_div"></div>
 
     <div class="container">
@@ -132,6 +134,8 @@
             <input type="submit" value="Save Product" class="save_button">
         </div>
     </div>
+
+    <?php require("footer.php") ?>;
 </body>
 
 </html>
