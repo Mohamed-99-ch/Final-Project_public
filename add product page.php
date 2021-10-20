@@ -70,7 +70,9 @@
             <br>
             <input type="text" class="sp_input" placeholder="Specifications">
             <br>
-            <a href="#">Add New</a>
+            <div class="add_new">
+                <a href="#">Add New</a>
+            </div>
         </div>
         <!-- ------------------------------------------------------ -->
         <div class="pro_imag">
@@ -114,14 +116,16 @@
                 <input type="date" class="date_input">
             </div>
 
-            <div class="size_button">
+            <!-- <div class="size_button">
                 <div class="size_b">S</div>
                 <div class="size_b">M</div>
                 <div class="size_b">L</div>
                 <div class="size_b">XL</div>
-                <div class="size_b">XLL</div>
-                <div class="size_b">XLLL</div>
-            </div>
+                <div class="size_b">XXL</div>
+                <div class="size_b">3XL</div>
+                <div class="size_b">4XL</div>
+                <div class="size_b">5XL</div>
+            </div> -->
 
             <input type="submit" value="Add Product" class="add_button">
 

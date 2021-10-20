@@ -20,7 +20,7 @@ body {
 
 .container {
     height: fit-content;
-    width: 779px;
+    width: 70%;
     float: right;
 }
 
@@ -59,14 +59,9 @@ body {
 }
 
 .add_product {
-    color: gray;
-    cursor: pointer;
-}
-
-.add_product:hover {
     color: #344F96;
-    border-bottom: 2px solid #344F96;
-    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 20px;
 }
 
 .pro_details, .pro_imag {
@@ -145,12 +140,16 @@ body {
 
 .price, .price_sale, .sp {
     width: 100%;
-    font-size: 16px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .desc_textarea {
     padding: 5px;
+    border-radius: 10px;
+    background-color: #ddd;
+    outline: none;
+    border: none;
 }
 
 .price_input, .price_sale_input, .sp_input {
@@ -162,12 +161,16 @@ body {
     padding: 5px;
 }
 
-.pro_details a {
+.add_new {
+    width: 100%;
+    height: fit-content;
+}
+
+.add_new a {
     text-decoration: none;
     color: #344F96;
     margin: 10px 10px;
-    position: relative;
-    left: 250px;
+    float: right;
 }
 
 .pro_details a:hover {
@@ -239,7 +242,7 @@ body {
     float: left;
 }
 
-.size_b {
+/* .size_b {
     width: 25%;
     float: left;
     margin: 10px;
@@ -251,13 +254,14 @@ body {
     border: none;
     border-radius: 10px;
     box-shadow: 0px 3px 10px #222;
-}
+} */
 
 .add_button, .save_button {
     cursor: pointer;
     width: 180px;
     float: left;
     margin-bottom: 10px;
+    margin-left: 20px;
     padding: 10px;
     border: none;
     border-radius: 10px;
@@ -267,7 +271,7 @@ body {
 .add_button {
     background-color: #98A3FF;
     color: #000;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .add_button:hover {
